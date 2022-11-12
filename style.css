@@ -1,0 +1,142 @@
+/* WebSite Name: Skrill   
+   Made by: Ritesh Gorle
+   Created: Nov 2022
+   Content: Various
+*/
+
+/*****************************************
+Table Of Contents:
+
+01. BASIC CSS Style
+02. SECTION 01: LOGO AND NAVIGATION
+03. SECTION 02: MAIN CONTENT
+
+******************************************/
+
+
+/******************************/
+/*   01. BASIC CSS Style      */
+/******************************/   
+
+body {
+    font-family: 'Cambay';
+}
+
+
+
+/**********************************************/
+/*   02. SECTION 01: LOGO AND NAVIGATION      */
+/**********************************************/   
+
+.navbar{
+   height: 30px;
+   margin-top: 20px;
+}
+
+.nav-link{
+   text-decoration: none;
+   color: black;
+   font-size: 16px;
+   font-weight: 900;
+}
+
+li{
+display:inline-block;
+}
+
+#button1{
+   width: 200px;
+   height: 40px;
+   background: #660066;
+   color: white;
+   font-weight: 900;
+}
+
+/************************************/
+/*   03. SECTION 02: MAIN CONTENT   */
+/************************************/   
+#main{
+   background: url('BG.png');
+   background-size:cover ;
+   height: 100vh;
+}
+
+.first-heading{
+   margin-top: 40px;
+   font-size: 60px;
+   color: white;
+   font-weight: 900;
+
+}
+
+.first-para{
+   font-size: 18px;
+   color: white;
+   font-weight: 600;
+}
+
+.first-img{
+   width: 300px;
+}
+
+
+#col2{
+ width: 400px;
+}
+
+.payment{
+   background: white;
+}
+
+
+#button2{
+   width: 350px;
+   
+   background: #660066;
+   color: white;
+   font-weight: 900;
+
+}
+
+#button3{
+   width: 350px;
+   
+   background: #33ccff;
+   color: black;
+   font-weight: 900;
+
+}
+
+.vl {
+  border-left: 1px solid green;
+  height: 50px;
+  float: right;
+}
+
+.para{
+   font-size: 9px;
+   float: left;
+
+}
+
+.para1{
+   font-size: 12px;
+   float: left;
+
+}
+
+#bank, #debit {
+   font-size: 14px;
+}
+
+
+.heading{
+   font-size: 30px;
+   font-weight: 600;
+   float: left;
+}
+
+.TOTAL{
+   font-size: 14px;
+
+}
